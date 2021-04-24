@@ -1,0 +1,22 @@
+query {
+    getUKVaccinations{
+        firstDoses{
+            length
+            data {
+                date
+                newPeopleVaccinatedFirstDoseByPublishDate
+            }
+            cumulativePercentage
+            cumulativeNumber
+        }
+        secondDoses{
+            length
+            data {
+                date
+                newPeopleVaccinatedSecondDoseByPublishDate
+            }
+            cumulativePercentage
+            cumulativeNumber
+        }
+    }
+}

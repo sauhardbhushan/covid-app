@@ -1,0 +1,15 @@
+{
+  "name": "Covid App GraphQL Schema",
+  "schemaPath": "./covid-api/schema/schema.ts",
+  "extensions": {
+    "endpoints": {
+      "Default GraphQL Endpoint": {
+        "url": "http://localhost:4000/",
+        "headers": {
+          "user-agent": "JS GraphQL"
+        },
+        "introspect": false
+      }
+    }
+  }
+}

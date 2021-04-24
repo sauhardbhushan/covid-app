@@ -1,0 +1,10 @@
+query {
+    getGlobalSummary{
+        global{
+            NewConfirmed
+            NewDeaths
+            TotalConfirmed
+            TotalDeaths
+        }
+    }
+}

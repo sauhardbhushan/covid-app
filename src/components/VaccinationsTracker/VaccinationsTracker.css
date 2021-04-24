@@ -1,0 +1,23 @@
+.circleViewbox {
+    transform: rotate(-90deg);
+    transition: all 1s ease-in-out;
+}
+
+.tracker--first:hover {
+    stroke-opacity: 80%;
+    cursor: pointer;
+}
+
+.percentage-display {
+    transform-origin: center;
+    transform: rotate(90deg);
+    text-anchor: middle;
+    dominant-baseline: middle;
+}
+.percentage-display--percent {
+    font-size: 3em;
+}
+
+.percentage-display--text {
+    font-size: 1.1rem;
+}
